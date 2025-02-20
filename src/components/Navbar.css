@@ -193,3 +193,27 @@
     height: 20px;
   }
 }
+/* 415px va undan kichik ekranlar */
+@media (max-width: 500px) {
+  .logo img {
+    height: 35px; /* Logoni kichraytirish */
+  }
+
+  .nav-items {
+    gap: 8px; /* Ikonlar orasidagi oraliqni qisqartirish */
+  }
+
+  .contact-icon,
+  .demo-btn,
+  .login-btn,
+  .lang-toggle-btn {
+    width: 35px; /* Barcha ikonlarni kichraytirish */
+    height: 35px;
+    font-size: 18px; /* Icon o‘lchamini moslashtirish */
+  }
+
+  .lang-flag {
+    width: 24px;
+    height: 16px;
+  }
+}
