@@ -1,0 +1,126 @@
+.m2lab-section {
+  text-align: center;
+  padding: 50px;
+  background-color: #fff;
+  margin-top: 70px;
+}
+
+.title {
+  font-size: 40px;
+  font-weight: 600;
+  color: #001246;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding-bottom: 30px;
+}
+
+.description {
+  font-size: 22px;
+  color: #333;
+  margin-top: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding-bottom: 30px;
+}
+
+/* === TABS SECTION === */
+.tabs {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  position: relative;
+  border-bottom: 2px solid transparent;
+  flex-wrap: wrap;
+}
+
+.tab {
+  background: none;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  font-weight: bold;
+  color: #000;
+  transition: color 0.3s ease;
+  position: relative;
+}
+
+.tab.active {
+  color: #b22222;
+}
+
+.tab-indicator {
+  position: absolute;
+  bottom: -2px;
+  height: 2px;
+  background-color: #b22222;
+  transition: all 0.3s ease-in-out;
+}
+
+/* === RESPONSIVE MEDIA QUERIES === */
+
+/* Planshetlar (1024px va kichik) */
+@media (max-width: 1024px) {
+  .title {
+    font-size: 35px;
+    padding-bottom: 25px;
+  }
+
+  .description {
+    font-size: 20px;
+  }
+
+  .tabs {
+    gap: 20px;
+  }
+
+  .tab {
+    font-size: 16px;
+    padding: 8px 16px;
+  }
+}
+
+/* Mobil ekranlar (768px va kichik) */
+@media (max-width: 768px) {
+  .title {
+    font-size: 30px;
+    padding-bottom: 20px;
+  }
+
+  .description {
+    font-size: 18px;
+    padding-bottom: 20px;
+  }
+
+  .tabs {
+    gap: 15px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .tab {
+    font-size: 16px;
+    padding: 8px 12px;
+    width: 80%;
+    text-align: center;
+  }
+
+  .tab-indicator {
+    display: none;
+  }
+}
+
+/* Kichik mobil ekranlar (480px va kichik) */
+@media (max-width: 480px) {
+  .title {
+    font-size: 26px;
+  }
+
+  .description {
+    font-size: 16px;
+  }
+
+  .tab {
+    font-size: 14px;
+    padding: 6px 10px;
+    width: 90%;
+  }
+}

@@ -1,0 +1,170 @@
+.services-container {
+  text-align: center;
+  padding: 20px;
+  max-width: 1441px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  gap: 30px;
+}
+
+h2 {
+  font-size: 24px;
+  color: #191e39;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Kichik ekranlar uchun moslashuvchan */
+  gap: 20px;
+  justify-content: center;
+  max-width: 900px;
+  width: 100%;
+}
+
+.service-card {
+  background: #f5f5f5;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  border: 2px solid transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px; /* Icon va matn orasidagi masofa */
+}
+
+.service-card .icon {
+  font-size: 30px;
+  color: #005eff;
+  padding-bottom: 20px;
+}
+
+.service-card p {
+  font-size: 16px;
+  font-weight: bold;
+  color: #a09898;
+}
+
+.service-card:hover p {
+  color: #005eff;
+}
+
+.service-card:hover {
+  background: #e0eaff;
+  border-color: #005eff;
+  transform: translateY(-5px);
+}
+
+.service-card.active {
+  background: linear-gradient(135deg, #005eff, #1046b0);
+  color: white;
+  border-color: #003cb3;
+}
+
+.service-card.active .icon {
+  color: white;
+}
+
+.layout img {
+  width: 100%;
+  height: auto;
+  max-width: 700px;
+  margin: auto;
+  display: block;
+  object-fit: cover;
+  padding: 10px;
+}
+
+/* === RESPONSIVE MEDIA QUERIES === */
+
+/* Planshetlar (1024px va kichik) */
+@media (max-width: 1024px) {
+  .services-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .services-grid {
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    max-width: 90%;
+  }
+
+  .service-card {
+    padding: 15px;
+  }
+
+  .service-card .icon {
+    font-size: 26px;
+  }
+
+  .service-card p {
+    font-size: 14px;
+  }
+}
+
+/* Mobil ekranlar (768px va kichik) */
+@media (max-width: 768px) {
+  .services-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .services-grid {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+
+  .service-card {
+    width: 100%;
+    padding: 18px;
+  }
+
+  .service-card .icon {
+    font-size: 28px;
+    padding-bottom: 15px; /* Icon va matn orasidagi masofa */
+  }
+
+  .service-card p {
+    font-size: 15px;
+  }
+
+  .layout img {
+    max-width: 90%;
+  }
+}
+
+/* Kichik mobil ekranlar (480px va kichik) */
+@media (max-width: 480px) {
+  h2 {
+    font-size: 20px;
+  }
+
+  .services-grid {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+
+  .service-card {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px; /* Kartalar orasidagi masofa */
+  }
+
+  .service-card .icon {
+    font-size: 26px;
+    padding-bottom: 15px; /* Icon va matn orasidagi masofa */
+  }
+
+  .service-card p {
+    font-size: 14px;
+  }
+}

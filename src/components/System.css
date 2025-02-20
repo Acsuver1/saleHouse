@@ -1,0 +1,152 @@
+.landing-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  align-items: center;
+  justify-content: center;
+  background-color: #eff0f1;
+  padding: 40px;
+  border-radius: 30px;
+  box-shadow: rgba(130, 128, 128, 0.24) 0px 3px 8px;
+  gap: 40px; /* Text va rasm orasidagi bo‘shliq */
+}
+
+/* Rasm joylashuvi */
+.image-section {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.laptop-image {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Matn qismi */
+.text-section {
+  flex: 1;
+  padding-left: 40px;
+  text-align: left;
+}
+
+.title {
+  color: #091e42;
+  font-size: 26px;
+  line-height: 1.5;
+  font-weight: 600;
+  font-family: sans-serif;
+  margin-bottom: 16px;
+}
+
+.description {
+  color: #344563;
+  font-size: 20px;
+  margin-bottom: 24px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.cta-button {
+  padding: 16px 28px;
+  font-size: 16px;
+  border: 1px solid #0052cc;
+  color: #0052cc;
+  background: transparent;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.cta-button:hover {
+  background: #0052cc;
+  color: white;
+}
+
+.cta-button:active {
+  background: #003380;
+  border-color: #003380;
+}
+
+.landing-page {
+  max-width: 1441px;
+  margin: 0 auto;
+  padding: 0 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+/* === RESPONSIVE MEDIA QUERIES === */
+
+/* Planshetlar (1024px va kichik) */
+@media (max-width: 1024px) {
+  .landing-container {
+      padding: 30px;
+      gap: 30px;
+  }
+
+  .text-section {
+      padding-left: 20px;
+  }
+
+  .title {
+      font-size: 24px;
+  }
+
+  .description {
+      font-size: 18px;
+  }
+}
+
+/* Mobil ekranlar (768px va kichik) */
+@media (max-width: 768px) {
+  .landing-container {
+      flex-direction: column;
+      text-align: center;
+      padding: 25px;
+  }
+
+  .image-section {
+      order: -1; /* Rasm matndan yuqorida joylashadi */
+  }
+
+  .text-section {
+      padding-left: 0;
+      text-align: center;
+  }
+
+  .title {
+      font-size: 22px;
+  }
+
+  .description {
+      font-size: 16px;
+  }
+
+  .cta-button {
+      padding: 14px 24px;
+      font-size: 15px;
+  }
+}
+
+/* Kichik mobil ekranlar (480px va kichik) */
+@media (max-width: 480px) {
+  .landing-container {
+      padding: 20px;
+  }
+
+  .title {
+      font-size: 20px;
+  }
+
+  .description {
+      font-size: 15px;
+  }
+
+  .cta-button {
+      padding: 12px 20px;
+      font-size: 14px;
+  }
+}

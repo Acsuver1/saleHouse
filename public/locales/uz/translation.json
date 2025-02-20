@@ -1,0 +1,174 @@
+{
+  "demodastur": "Demodastur",
+  "tizimga_kirish": "Tizimga kirish",
+  "uzbek": "O'zbek",
+  "russian": "Rus tili",
+  "salehouse_title": "SaleHouse -",
+  "salehouse_highlight": "moslashuvchan",
+  "salehouse_description": "raqamli marketing va quruvchi sotuvlari",
+  "developer_experience": "Tuzuvchilardan",
+  "developer_highlight": "shaxsiy qurilish tajribasi bilan",
+  "try_now": "Sinab ko‘rmoqchiman",
+  "rent_logo_alt": "Ijara logotipi",
+  "solutions_main_title": "Quruvchilarning muammolarini kompleks hal qilamiz",
+  "solution_1_title": "Sotuv boshlanishidan oldin tayyorgarlik",
+  "solution_1_description": "Logotipdan interyer renderlarigacha kompleks dizayn buyurtma qiling",
+  "solution_2_title": "Tezkor onlayn savdo boshlash",
+  "solution_2_description": "Sotuv sahifasini 10 ish kunida oling",
+  "solution_3_title": "Savdo voronkalarini sozlash",
+  "solution_3_description": "Lidlarni quruvchilar uchun qulay narxlarda muvaffaqiyatli bitimlarga aylantirish tizimini joriy qiling",
+  "salehouse_title1": "SaleHouse quruvchilar uchun moslashtirilgan",
+  "salehouse_description1": "Har bir SaleHouse mahsuloti sizning muammolaringiz uchun kompleks yechim.",
+  "click_for_more": "Iltimos, ikonka ustiga bosing va batafsil ma'lumot oling.",
+  "tab_packaging": "SaleHouse: Qadoqlash",
+  "tab_express": "SaleHouse: Tez ishga tushirish",
+  "tab_leads": "SaleHouse: Mijozlar va bitimlar",
+  "packaging_services": "Qadoqlash xizmatlari",
+  "service_2d_3d": "2D va 3D rejalashtirish",
+  "service_3d_visualization": "3D vizualizatsiya",
+  "service_advertising": "Reklama",
+  "service_branding": "Brending",
+  "service_corporate_identity": "Firma uslubi",
+  "service_identity": "Identika",
+  "service_logo": "Logotip",
+  "service_marketing": "Marketing",
+  "service_renders": "Renderlar",
+  "discover_system": "Bizning tizim qanday ishlashini bilib oling",
+  "leave_request": "Ariza qoldiring. Mutaxassislarimiz siz bilan bog‘lanib, tizim haqida batafsil ma'lumot berishadi va xizmatlarni sizning ehtiyojlaringizga mos ravishda tanlab berishadi.",
+  "submit_request": "Ariza qoldirish",
+  "developers_choose_us": "Tadbirkorlar bizni tanlaydi",
+  "objects_helped": "obyektlarni amalga oshirishga yordam beramiz",
+  "regions_connected": "hududlar ulangan",
+  "hero_title": "Biz 10 kun ichida <br /> <span>quruvchilar uchun saytlar</span> yaratamiz",
+  "hero_description": "SaleHouse  tomonidan yaratilgan turar-joy majmualari saytlari sizning barcha ko‘chmas mulk loyihalaringizni eng yaxshi tarafdan namoyon qiladi. Qulay tanlov va xarid jarayoni samarali savdolarni ta’minlaydi.",
+  "benefit_1": "Ko‘chmas mulk savdo tizimi avtomatik ravishda ta'riflar, holatlar va narxlarni yangilaydi.",
+  "benefit_2": "Shaxsiy kabinetda 'Shaxmat taxtasi' va 'Arizalarni yig‘ish xizmati' orqali sayt ma’lumotlarini texnik yordamga ehtiyoj sezmasdan boshqarish mumkin.",
+  "title_section": "Potentsial mijozlaringizni yo‘qotmang!",
+  "description_section": "Ichki interaktiv 3D katalog fasadi yoki kvartiralar shaxmatkasi xaridorga o‘zi uchun qulay interfeysni tanlash va bron qilish uchun ariza yuborish imkonini beradi.",
+  "info_section": "Mijozlaringiz vaqtini hurmat qiling, muhim ma'lumotlarni darhol taqdim eting: kvartiralar va qavatlarning rejalari; kvartira holati (bo‘sh, band qilingan, sotilgan); aksiya va maxsus takliflar.",
+  "apply_button": "Ariza qoldirish",
+  "consultation_link": "Maslahat olish →",
+    "cottage_hero_title": "Qishloq kottej shaharchasi sayti <br /> 14 kun ichida",
+    "cottage_hero_description": "SaleHouse tomonidan yaratilgan turar-joy majmualari saytlari barcha ko‘chmas mulk ob'ektlaringizni eng yaxshi tarzda namoyish etadi. Kvartiralarni tanlash va sotib olishdagi qulaylik samarali savdolarni ta’minlaydi.",
+    "cottage_feature_site": "Zamonaviy sayt interaktiv bosh reja bilan",
+    "cottage_feature_catalog": "3D-katalog ob’ekti va Shaxmatka",
+    "cottage_feature_crm": "CRM bilan integratsiya",
+    "cottage_feature_auto_manage": "Qo‘shimcha texnik mutaxassislarisiz avtomatik boshqaruv",
+    "cottage_feature_ads": "Reklama qo‘llab-quvvatlovi",
+      "interactive_catalog_title": "3D-interaktiv katalog",
+      "interactive_catalog_description": "Turar-joy majmuasi uchun smart-katalogni amaldagi saytingizga qo‘shing. Bu mijozlaringizga interaktiv ko‘rinishda tanlov qilish va bron qilish imkoniyatini yaratadi.",
+      "interactive_catalog_subtitle": "Shaxsiy yechim yaratishga ketadigan vaqtni tejang:",
+      "feature_3d_facade": "Saytingiz uchun 3D-fasad va shaxmatka",
+      "feature_request_booking": "Bron qilish va so‘rovlarni qabul qilish",
+      "feature_available_apartments": "Saytingizda sotuvdagi dolzarb kvartiralar",
+      "feature_free_site_upgrade": "Saytni bepul modernizatsiya qilish",
+      "feature_auto_update": "Saytingizda avtomatik ma’lumot yangilanishi",
+      "feature_actual_layouts": "Haqiqiy kvartira rejalari",
+      "feature_crm_sync": "SaleHouse: CRM bilan sinxronizatsiya",
+      "feature_complex_map": "Uylarning belgilari bilan turar-joy majmuasi xaritasi",
+      "feature_no_tech_needed": "Qo‘shimcha texnik mutaxassislarni jalb qilmasdan ishlaydi",
+      "banner_title": "Daromadingizni hoziroq oshiring",
+  "banner_description": "<span class='highlight'>«Dinamik narxlash»</span> — aqlli xizmat bozorni tahlil qilib, narxlarni qachon va qanchaga oshirish kerakligini tavsiya qiladi. Quruvchilarga ko‘proq daromad olishga yordam beradi.",
+  "banner_note": "Mutaxassislarimiz uni to‘g‘ri joriy etishda sizga yordam beradi.",
+  "banner_button": "Bepul sinab ko‘ring",
+  
+    "testimonialTitle": "Mijozlarimiz biz haqimizda nima deyishadi",
+    "testimonialHeading": "Tez. Samarali. Moslashuvchan.",
+    "testimonials": {
+      "karmana": {
+        "text": "Zamonaviy quruvchi uchun SaleHouse zarur. \"Hisobotlar\" xizmati juda zo‘r! Vaqt va inson resurslarini tejaydi. \"Shaxmatka\" xizmati eng qulay va samarali.",
+        "author": "JK Karmana city"
+      },
+      "isfaan": {
+        "text": "SaleHouse – bu qurilishdagi innovatsion yondashuv. Biznesimiz ularning xizmatlari tufayli ancha samarali bo‘ldi.",
+        "author": "JK Isfaan"
+      },
+      "yuksalish": {
+        "text": "SaleHouse yordamida biz ko‘p vaqt va resurslarni tejaymiz. Ularning yechimlari haqiqatan ham ishlaydi!",
+        "author": "JK Yuksalish Group"
+      },
+      "makon": {
+        "text": "SaleHouse xizmati bizga asosiy jarayonlarni avtomatlashtirish va samaradorlikni oshirishga yordam beradi.",
+        "author": "JK Makon"
+      },
+      "qorasuv": {
+        "text": "SaleHouse xizmati bizga asosiy jarayonlarni avtomatlashtirish va samaradorlikni oshirishga yordam beradi.",
+        "author": "JK Qorasuv Avenue"
+      },
+      "bmgroup": {
+        "text": "SaleHouse xizmati bizga asosiy jarayonlarni avtomatlashtirish va samaradorlikni oshirishga yordam beradi.",
+        "author": "JK Bmgroup"
+      },
+      "shohsaroy": {
+        "text": "SaleHouse xizmati bizga asosiy jarayonlarni avtomatlashtirish va samaradorlikni oshirishga yordam beradi.",
+        "author": "JK Shohsaroy Uylari"
+      },
+      "ctcuni": {
+        "text": "SaleHouse xizmati bizga asosiy jarayonlarni avtomatlashtirish va samaradorlikni oshirishga yordam beradi.",
+        "author": "JK CTC United Development"
+      },
+      "bci": {
+        "text": "SaleHouse xizmati bizga asosiy jarayonlarni avtomatlashtirish va samaradorlikni oshirishga yordam beradi.",
+        "author": "JK BCI Group"
+      },
+      "laylo": {
+        "text": "SaleHouse xizmati bizga asosiy jarayonlarni avtomatlashtirish va samaradorlikni oshirishga yordam beradi.",
+        "author": "JK Laylo MCHJ"
+      }
+    },
+    "callToAction": {
+      "title": "SaleHouse bilan ishni bugunoq boshlang",
+      "description": "Tizimga to'liq kirish huquqiga ega bo'ling va 14 kunlik sinov muddatidan foydalaning.",
+      "tryButton": "Sinab ko‘rmoqchiman",
+      "contactButton": "Biz bilan bog‘lanish →"
+    },
+    "supportSection": {
+    "title": "Yashin tezligida texnik yordam barcha savollaringizga javob beradi",
+    "description": "Shaxsiy menejer siz bilan birinchi kuniyoq bog‘lanadi. Barcha mutaxassislarimiz qurilish sohasida tajribaga ega. Ular ish jarayonlarini ichidan biladi va qurilish terminologiyasidan xabardor.",
+    "contactButton": "Biz bilan bog‘lanish →"
+  },
+  "supportInfo": {
+    "title": "Har doim yoningizda",
+    "description": "Bizning texnik yordam dasturdan foydalanishda sizga yordam beradi va har qanday savolingizga qisqa vaqt ichida javob qaytaradi.",
+    "list": {
+      "item1": "Sizga qulay formatda individual o‘qitish o‘tkazamiz.",
+      "item2": "Video va grafik ko‘rsatmalarni taqdim etamiz.",
+      "item3": "O‘qitish zarur bo‘lgancha marotaba o‘tkaziladi."
+    },
+    "contactButton": "Biz bilan bog‘lanish →",
+    "tryButton": "Bepul sinab ko‘rish"
+  },
+  "footer": {
+    "servicesTitle": "Xizmatlar",
+    "servicesList": {
+      "crm": "SaleHouse: CRM",
+      "pricing": "SaleHouse: Dinamik narx belgilash",
+      "chess": "SaleHouse: Shaxmatka",
+      "export": "SaleHouse: Yuklab olish",
+      "handover": "SaleHouse: Uy topshirish",
+      "documents": "SaleHouse: Hujjatlar",
+      "registry": "SaleHouse: Davlat reyestri",
+      "agentAccess": "SaleHouse: Agentlik kirishi",
+      "cottageCRM": "SaleHouse: Kottej shaharchalari uchun CRM"
+    },
+    "services": {
+      "title": "Xizmatlar",
+      "webDevelopment": "Veb-sayt yaratish"
+    },
+    "contact": {
+      "phone": "+998 90 717 87 15",
+      "email": "help.salehouse.uz"
+    },
+    "bottomText": {
+      "rights": "© SaleHouse kompaniyasi, 2024-2025. Barcha huquqlar himoyalangan.",
+      "privacyPolicy": "Maxfiylik siyosati."
+    }
+  }
+  }
+  
+  
+    
+  
+  
+
+

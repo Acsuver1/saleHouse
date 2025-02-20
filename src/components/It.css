@@ -1,0 +1,142 @@
+.support-info-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+    margin-top: 60px;
+    background-color: #ffffff;
+  }
+  
+  .support-info-content {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    gap: 70px;
+  }
+  
+  .image-section img {
+    width: 450px;
+    height: auto;
+  }
+  
+  .text-section {
+    max-width: 500px;
+  }
+  
+  .text-section h2 {
+    font-size: 34px;
+    color: #263160;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 15px;
+  }
+  
+  .text-section p {
+    font-size: 20px;
+    color: #495170;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 15px;
+    line-height: 1.5;
+  }
+  
+  .text-section ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  
+  .text-section ul li {
+    font-size: 18px;
+    color: #484f68;
+    margin-bottom: 8px;
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-items: center;
+  }
+  
+  .text-section ul li::before {
+    content: "•";
+    color: #b22234;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 8px;
+  }
+  
+  .button-group {
+    display: flex;
+    gap: 25px;
+  }
+  
+  .contact-button {
+    background-color: transparent;
+    color: #0056b3;
+    border: 1px solid #0056b3;
+    padding: 16px 30px;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .contact-button:hover {
+    background-color: #0056b3;
+    color: white;
+  }
+  
+  .try-button {
+    background-color: #b22234;
+    color: white;
+    border: none;
+    padding: 16px 30px;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .try-button:hover {
+    background-color: #711b25;
+  }
+  
+  @media (max-width: 768px) {
+    .support-info-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .image-section img {
+        max-width: 300px; /* Rasm hajmi kichrayadi */
+        width: 90%; /* Ekran o‘lchamiga moslashadi */
+    }
+
+    .text-section {
+        max-width: 100%;
+    }
+
+    .text-section h2 {
+        font-size: 28px;
+    }
+
+    .text-section p {
+        font-size: 18px;
+    }
+
+    .text-section ul li {
+        font-size: 16px;
+        justify-content: center;
+    }
+
+    .button-group {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .contact-button,
+    .try-button {
+        width: 100%;
+        padding: 14px 0;
+        font-size: 16px;
+    }
+}

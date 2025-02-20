@@ -1,0 +1,155 @@
+.title-section {
+  text-align: center;
+  padding: 40px 20px;
+  background: white;
+  margin-top: 100px;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: bold;
+  color: #001d66;
+}
+
+.description {
+  font-size: 18px;
+  color: #333;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.image {
+  margin-top: 20px;
+}
+
+.image img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.info-section {
+  text-align: center;
+  padding: 40px 20px;
+  background: white;
+}
+
+.info-text {
+  font-size: 20px;
+  color: #001d66;
+  max-width: 900px;
+  margin: 0 auto 20px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-top: 50px;
+}
+
+.apply-button {
+  background: #b42839;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 18px 36px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.apply-button:hover {
+  background: #931125;
+}
+
+.consultation-link {
+  font-size: 16px;
+  color: #001d66;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.consultation-link:hover {
+  text-decoration: underline;
+  color: #d14051;
+  transition: color 0.2s;
+}
+
+/* === RESPONSIVE MEDIA QUERIES === */
+
+/* Planshetlar (768px - 1024px) */
+@media (max-width: 1024px) {
+  .title {
+      font-size: 32px;
+  }
+
+  .description {
+      font-size: 16px;
+      max-width: 700px;
+  }
+
+  .info-text {
+      font-size: 18px;
+  }
+
+  .button-group {
+      gap: 20px;
+  }
+}
+
+/* Mobil ekranlar (480px - 768px) */
+@media (max-width: 768px) {
+  .title {
+      font-size: 30px;
+  }
+
+  .description {
+      font-size: 16px;
+      max-width: 90%;
+  }
+
+  .info-text {
+      font-size: 16px;
+  }
+
+  .button-group {
+      flex-direction: column;
+      gap: 15px;
+  }
+
+  .apply-button {
+      width: 100%;
+      padding: 14px;
+  }
+}
+
+/* Juda kichik ekranlar (480px dan kichik) */
+@media (max-width: 480px) {
+  .title {
+      font-size: 28px;
+  }
+
+  .description {
+      font-size: 14px;
+  }
+
+  .info-text {
+      font-size: 14px;
+  }
+
+  .button-group {
+      flex-direction: column;
+      gap: 10px;
+  }
+
+  .apply-button {
+      width: 100%;
+      padding: 12px;
+  }
+}

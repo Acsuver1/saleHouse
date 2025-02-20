@@ -1,0 +1,148 @@
+.support-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 20px;
+  margin-top: 60px;
+  background-color: #f7f7f7;
+}
+
+.support-content {
+  display: flex;
+  align-items: center;
+  max-width: 1441px;
+  gap: 80px;
+}
+
+/* Matn bo'limi */
+.text-section {
+  max-width: 500px;
+}
+
+.text-section h2 {
+  font-size: 34px;
+  color: #16224d;
+  margin-bottom: 15px;
+  font-weight: 600;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.text-section p {
+  font-size: 18px;
+  color: #37335a;
+  margin-bottom: 40px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  line-height: 1.5;
+}
+
+/* Tugma */
+.contact-button {
+  background-color: transparent;
+  color: #0f66c2;
+  border: 1px solid #0056b3;
+  padding: 16px 40px;
+  border-radius: 32px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 18px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.contact-button:hover {
+  background-color: #0056b3;
+  color: white;
+}
+
+/* Rasm bo‘limi */
+.image-section img {
+  max-width: 450px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+/* O‘rta ekranlar (768px - 1024px) */
+@media (max-width: 1024px) {
+  .support-content {
+      gap: 40px;
+  }
+
+  .text-section h2 {
+      font-size: 30px;
+  }
+
+  .text-section p {
+      font-size: 17px;
+      margin-bottom: 30px;
+  }
+
+  .contact-button {
+      padding: 14px 36px;
+      font-size: 16px;
+  }
+
+  .image-section img {
+      max-width: 400px;
+  }
+}
+
+/* Mobil ekranlar (768px pastda) */
+@media (max-width: 768px) {
+  .support-content {
+      flex-direction: column;
+      text-align: center;
+      gap: 20px;
+  }
+
+  .text-section {
+      max-width: 100%;
+  }
+
+  .text-section h2 {
+      font-size: 26px;
+  }
+
+  .text-section p {
+      font-size: 16px;
+  }
+
+  .image-section img {
+      max-width: 100%;
+  }
+
+  .contact-button {
+      width: 100%;
+      padding: 14px 0;
+      font-size: 16px;
+  }
+}
+@media (max-width: 768px) {
+  .support-content {
+      flex-direction: column;
+      text-align: center;
+      gap: 20px;
+  }
+
+  .text-section {
+      max-width: 100%;
+  }
+
+  .text-section h2 {
+      font-size: 26px;
+  }
+
+  .text-section p {
+      font-size: 16px;
+  }
+
+  /* Rasmni kichraytirish */
+  .image-section img {
+      max-width: 300px; /* Rasm kichraydi */
+      width: 90%; /* Moslashuvchanlik uchun */
+  }
+
+  .contact-button {
+      width: 100%;
+      padding: 14px 0;
+      font-size: 16px;
+  }
+}
