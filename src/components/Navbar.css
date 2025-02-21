@@ -147,7 +147,7 @@
 
   .contact-icons {
     display: flex;
-    gap: 12px; /* Oraliqni kattalashtirish */
+    gap: 10px; /* Oraliqni kattalashtirish */
     align-items: center;
   }
 
