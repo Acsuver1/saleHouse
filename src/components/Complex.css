@@ -142,3 +142,26 @@
         font-size: 16px;
     }
 }
+/* Mobil ekranlar (768px va kichik) */
+@media (max-width: 768px) {
+    .image-container {
+        width: 100%; /* Ekran bo‘ylab kengaytirish */
+        display: flex;
+        justify-content: center;
+    }
+
+    .catalog-video {
+        width: 90%; /* Videoni biroz kattalashtirish */
+        max-width: 600px; /* Juda katta bo‘lib ketmasligi uchun cheklash */
+        height: auto;
+        border-radius: 10px;
+    }
+}
+
+/* Kichik mobil ekranlar (480px va kichik) */
+@media (max-width: 480px) {
+    .catalog-video {
+        width: 95%; /* Kichik ekranda ham joy egallashini ta'minlash */
+        max-width: 400px; /* Juda katta bo‘lib ketmasligi uchun cheklash */
+    }
+}

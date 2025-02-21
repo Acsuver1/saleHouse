@@ -150,3 +150,30 @@
       height: auto;
   }
 }
+
+@media (max-width: 768px) {
+  .hero {
+    align-items: flex-start; /* Kontentni yuqori qismga joylash */
+  }
+
+  .hero-image {
+    display: flex;
+    justify-content: flex-end; /* Rasmni o‘ng tomonga surish */
+    width: 100%;
+  }
+
+  .hero-image img {
+    width: 80%; /* Rasmni biroz kichraytirish */
+    max-width: 450px; /* Maksimal o‘lchamni cheklash */
+    margin-right: -20px; /* Rasmni o‘ng tomonga yaqinlashtirish */
+  }
+}
+
+/* Kichik mobil ekranlar (480px va kichik) */
+@media (max-width: 480px) {
+  .hero-image img {
+    width: 90%; /* Juda kichik ekranda ham sig‘ishi uchun */
+    max-width: 350px; /* Maksimal o‘lchamni cheklash */
+    margin-right: -20px; /* O‘ng tomonga biroz yaqinlashtirish */
+  }
+}
