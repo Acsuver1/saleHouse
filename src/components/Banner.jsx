@@ -10,11 +10,17 @@ const HeroSection = () => {
 
   return (
     <section className="hero-container">
-<video loading="lazy" autoPlay loop muted playsInline className="video-bg">
+<video
+  autoPlay
+  loop
+  muted
+  playsInline
+  className="video-bg"
+  preload="auto" // yoki "metadata"
+>
   <source src={VidioFon} type="video/mp4" />
   Your browser does not support the video tag.
 </video>
-
 
 
       <div className="hero-content">
