@@ -218,3 +218,27 @@
     height: 16px;
   }
 }
+@media (max-width: 385px) {
+  .logo img {
+    height: 35px; /* Logoni yanada kichraytirish */
+    max-width: 150px; /* Maksimal kenglikni cheklash */
+  }
+
+  .nav-items {
+    gap: 6px; /* Ikonlar orasidagi oraliqni yanada qisqartirish */
+  }
+
+  .contact-icon,
+  .demo-btn,
+  .login-btn,
+  .lang-toggle-btn {
+    width: 32px; /* Hammasini kichikroq qilish */
+    height: 32px;
+    font-size: 18px; /* Icon o‘lchamini moslashtirish */
+  }
+
+  .lang-flag {
+    width: 25px;
+    height: 18px;
+  }
+}
