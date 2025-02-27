@@ -41,7 +41,13 @@ const Navbar = () => {
     <div className={`container ${scrolling ? "scrolled" : ""}`}>
       <nav className="navbar">
         <div className="logo">
-          <img src={saleLogo} alt="Sale Logo" />
+        <img
+  src={saleLogo}
+  alt="Sale Logo"
+  onClick={() => window.location.href = '/'}
+  style={{ cursor: 'pointer' }}
+/>
+
         </div>
 
         <div className="nav-items">
@@ -50,7 +56,7 @@ const Navbar = () => {
           ) : (
             <div className="contact-icons">
               <a href="tel:+998907178715" className="contact-icon"><FiPhone size={20} /></a>
-              <a href="mailto:info@example.com" className="contact-icon"><FiMail size={20} /></a>
+              <a href="mailto:asadbekdavlatov@gmail.com" className="contact-icon"><FiMail size={20} /></a>
             </div>
           )}
 

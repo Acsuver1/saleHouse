@@ -15,16 +15,16 @@ import PlayLogo from "../assets/laylologo.png";
 
 const testimonials = [
   {
-    image: Karmana,
-    key: "karmana",
+    image: Yuksalish,
+    key: "yuksalish",
   },
   {
     image: Isfaan,
     key: "isfaan",
   },
   {
-    image: Yuksalish,
-    key: "yuksalish",
+    image: Bmgroup,
+    key: "bmgroup",
   },
   {
     image: Makon,
@@ -35,8 +35,8 @@ const testimonials = [
     key: "qorasuv",
   },
   {
-    image: Bmgroup,
-    key: "bmgroup",
+    image: Karmana,
+    key: "karmana",
   },
   {
     image: Shohsaroy,
