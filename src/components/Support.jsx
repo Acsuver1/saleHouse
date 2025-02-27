@@ -12,7 +12,13 @@ function SupportSection() {
         <div className="text-section">
           <h2>{t("supportSection.title")}</h2>
           <p>{t("supportSection.description")}</p>
-          <button className="contact-button">{t("supportSection.contactButton")}</button>
+          <button
+  className="contact-button"
+  onClick={() => window.location.href = "tel:+998907178715"}
+>
+  {t("supportSection.contactButton")}
+</button>
+
         </div>
         <div className="image-section">
           <img src={supportImage} alt="24/7 Support" />

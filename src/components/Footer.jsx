@@ -31,7 +31,13 @@ function Footer() {
         </div>
 
         <div className="footer-contact">
-          <h3>{t("footer.contact.phone")}</h3>
+        <h3 
+  style={{ cursor: "pointer", color: "white", textDecoration: "none" }}
+  onClick={() => window.location.href = "tel:+998907178715"}
+>
+  {t("footer.contact.phone")}
+</h3>
+
           <p>{t("footer.contact.email")}</p>
         </div>
       </div>

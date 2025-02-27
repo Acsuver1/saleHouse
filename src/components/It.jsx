@@ -21,7 +21,13 @@ function SupportInfo() {
             <li>{t("supportInfo.list.item3")}</li>
           </ul>
           <div className="button-group">
-            <button className="contact-button">{t("supportInfo.contactButton")}</button>
+          <button
+  className="contact-button"
+  onClick={() => window.location.href = "https://t.me/asadbek2278"}
+>
+  {t("supportInfo.contactButton")}
+</button>
+
             <button className="try-button">{t("supportInfo.tryButton")}</button>
           </div>
         </div>

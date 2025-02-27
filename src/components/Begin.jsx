@@ -12,7 +12,13 @@ function CallToAction() {
         <p>{t("callToAction.description")}</p>
         <div className="button-group">
           <button className="try-button">{t("callToAction.tryButton")}</button>
-          <button className="contact-button">{t("callToAction.contactButton")}</button>
+          <button
+  className="contact-button"
+  onClick={() => window.location.href = "tel:+998907178715"}
+>
+  {t("callToAction.contactButton")}
+</button>
+
         </div>
       </div>
     </div>

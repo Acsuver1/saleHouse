@@ -19,7 +19,13 @@ const TitleSection = () => {
       <section className="info-section">
         <p className="info-text">{t("info_section")}</p>
         <div className="button-group">
-          <button className="apply-button">{t("apply_button")}</button>
+        <button
+  className="apply-button"
+  onClick={() => window.location.href = "https://t.me/asadbek2278"}
+>
+  {t("apply_button")}
+</button>
+
           <a href="#" className="consultation-link">{t("consultation_link")}</a>
         </div>
       </section>

@@ -15,7 +15,13 @@ const LandingPage = () => {
         <div className="text-section">
           <h2 className="title">{t("discover_system")}</h2>
           <p className="description">{t("leave_request")}</p>
-          <button className="cta-button">{t("submit_request")}</button>
+          <button
+  className="cta-button"
+  onClick={() => window.location.href = "https://t.me/asadbek2278"}
+>
+  {t("submit_request")}
+</button>
+
         </div>
       </div>
     </div>
