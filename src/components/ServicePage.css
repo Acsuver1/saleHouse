@@ -44,35 +44,69 @@ h2 {
 
 .service-card .icon {
   font-size: 30px;
-  color: #005eff;
+  color: #00a3b2;
   padding-bottom: 20px;
+  transition: color 0.3s ease, transform 0.3s ease;
 }
 
 .service-card p {
   font-size: 16px;
   font-weight: bold;
-  color: #a09898;
-}
-
-.service-card:hover p {
-  color: #005eff;
+  color: #727070;
+  transition: color 0.3s ease;
 }
 
 .service-card:hover {
-  background: #e0eaff;
-  border-color: #005eff;
+  background: #dff7fa;
+  border-color: #00a3b2;
   transform: translateY(-5px);
 }
 
+.service-card:hover .icon {
+  color: #008a94;
+  transform: scale(1.1);
+}
+
+.service-card:hover p {
+  color: #00a3b2;
+}
+
 .service-card.active {
-  background: linear-gradient(135deg, #005eff, #1046b0);
+  background: linear-gradient(135deg, #00a3b2, #52a0a5);
   color: white;
-  border-color: #003cb3;
+  border-color: #005a60;
+  transition: background 0.3s ease, transform 0.3s ease;
 }
 
 .service-card.active .icon {
   color: white;
+  transition: color 0.3s ease, transform 0.3s ease;
 }
+
+.service-card.active:hover {
+  background: linear-gradient(135deg, #008f9a, #3e8c90);
+  transform: translateY(-3px);
+}
+
+
+
+.service-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 163, 178, 0.1);
+  z-index: -1;
+  transition: opacity 0.3s ease;
+  opacity: 0;
+}
+
+.service-card:hover::before {
+  opacity: 1;
+}
+
 
 .layout img {
   width: 100%;
