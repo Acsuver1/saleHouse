@@ -18,7 +18,6 @@ const ServicesPage = () => {
     { id: 8, icon: <FaCube />, title: t("service_marketing") },
     { id: 9, icon: <FaCubes />, title: t("service_renders") },
   ];
-
   return (
     <>
       <div className="background-title">

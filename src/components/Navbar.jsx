@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from "react";
+import { TbMessage2 } from "react-icons/tb"; 
+import  { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import { FiLogIn, FiPhone, FiMail } from "react-icons/fi"; 
-import { FaPlayCircle } from "react-icons/fa"; 
 import "./Navbar.css";
 import saleLogo from "../assets/SaleHouse Logo3.png";
 import { languages } from "../utils/index";
@@ -61,7 +61,7 @@ const Navbar = () => {
           )}
 
           <button className="demo-btn">
-            {isMobile ? <FaPlayCircle size={20} /> : t("demodastur")}
+            {isMobile ?  <TbMessage2 size={20} />  : t("demodastur")} 
           </button>
           <button className="login-btn">
             {isMobile ? <FiLogIn size={20} /> : t("tizimga_kirish")}

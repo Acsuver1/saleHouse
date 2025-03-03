@@ -1,4 +1,4 @@
-import React from "react";
+
 import { useTranslation } from "react-i18next";
 import "./Building.css";
 import dCard from "../assets/3D_catalog_picture.jpg";
@@ -33,4 +33,4 @@ const TitleSection = () => {
   );
 };
 
-export default TitleSection;
+export default TitleSection;  

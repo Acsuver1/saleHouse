@@ -39,13 +39,13 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 10px; /* Icon va matn orasidagi masofa */
+  gap: 10px; 
 }
 
 .service-card .icon {
   font-size: 30px;
   color: #00a3b2;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
   transition: color 0.3s ease, transform 0.3s ease;
 }
 
@@ -58,7 +58,6 @@ h2 {
 
 .service-card:hover {
   background: #dff7fa;
-  border-color: #00a3b2;
   transform: translateY(-5px);
 }
 
@@ -74,7 +73,6 @@ h2 {
 .service-card.active {
   background: linear-gradient(135deg, #00a3b2, #52a0a5);
   color: white;
-  border-color: #005a60;
   transition: background 0.3s ease, transform 0.3s ease;
 }
 
@@ -84,7 +82,8 @@ h2 {
 }
 
 .service-card.active:hover {
-  background: linear-gradient(135deg, #008f9a, #3e8c90);
+  background: linear-gradient(135deg, #6ceef5, #a9f5f9);
+  transform: translateY(-5px);
   transform: translateY(-3px);
 }
 
@@ -122,9 +121,7 @@ h2 {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-/* === RESPONSIVE MEDIA QUERIES === */
 
-/* Planshetlar (1024px va kichik) */
 @media (max-width: 1024px) {
   .services-container {
     flex-direction: column;
@@ -149,7 +146,7 @@ h2 {
   }
 }
 
-/* Mobil ekranlar (768px va kichik) */
+
 @media (max-width: 768px) {
   .services-container {
     flex-direction: column;
@@ -168,7 +165,7 @@ h2 {
 
   .service-card .icon {
     font-size: 28px;
-    padding-bottom: 15px; /* Icon va matn orasidagi masofa */
+    padding-bottom: 15px; 
   }
 
   .service-card p {
@@ -180,7 +177,7 @@ h2 {
   }
 }
 
-/* Kichik mobil ekranlar (480px va kichik) */
+
 @media (max-width: 480px) {
   h2 {
     font-size: 20px;
@@ -194,12 +191,12 @@ h2 {
   .service-card {
     width: 100%;
     padding: 15px;
-    margin-bottom: 15px; /* Kartalar orasidagi masofa */
+    margin-bottom: 15px; 
   }
 
   .service-card .icon {
     font-size: 26px;
-    padding-bottom: 15px; /* Icon va matn orasidagi masofa */
+    padding-bottom: 15px; 
   }
 
   .service-card p {

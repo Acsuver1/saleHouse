@@ -92,23 +92,26 @@
   }
 
 
-  .lang-toggle-btn {
+.lang-toggle-btn {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 50px;
+    width: 100px;
     height: 40px;
     gap: 8px;
     padding: 20px;
-    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.066); /* Orqa fonni biroz shaffof qilish */
     border: none;
+    border-radius: 8px; /* Tugmani yumaloqroq qilish */
     cursor: pointer;
-    transition: transform 0.2s;
-  }
+    transition: transform 0.2s, background-color 0.3s;
+}
 
-  .lang-toggle-btn:hover {
-    transform: scale(1.1);
-  }
+.lang-toggle-btn:hover {
+    background-color: rgba(0, 0, 0, 0.2); /* Hover effekti */
+    transform: scale(1.05);
+}
+
 
   .lang-flag {
     width: 26px;
@@ -226,20 +229,29 @@
   }
 
   .nav-items {
-    gap: 6px; /* Ikonlar orasidagi oraliqni yanada qisqartirish */
+    gap: 5px; 
   }
 
   .contact-icon,
   .demo-btn,
   .login-btn,
   .lang-toggle-btn {
-    width: 32px; /* Hammasini kichikroq qilish */
-    height: 32px;
+    width: 30px; /* Hammasini kichikroq qilish */
+    height: 30px;
     font-size: 18px; /* Icon o‘lchamini moslashtirish */
   }
 
   .lang-flag {
     width: 25px;
-    height: 18px;
+    height: 20px;
   }
+
+  .demo-btn{
+    width: 38px;
+  }
+  .login-btn{
+    width: 35px;
+  }
+  
 }
+
